@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
-    --bg-1: rgb(254, 249, 228);
+    --bg-1: rgb(151, 189, 254);
+    --bg-2: rgb(252, 245, 215);
+    --accent-1: rgb(127, 225, 244);
+    --my-font: "Sour Gummy";
+}
+
+@keyframes textWave{
+    0%{
+      transform: translateY(0px);
+    }
+    100%{
+      transform: translateY(10px);
+    }
 }
 
 .bg-1{
@@ -7,9 +21,28 @@
 }
 
 #navigation{
-    background-color: rgb(127, 225, 244);
+    background-color: var(--accent-1);
 }
 
 .navbar a {
     text-decoration: none;
 }
+
+.content {
+    background-color: var(--bg-2);
+}
+
+.animated_text{
+    background-color: white;
+    color: var(--accent-1);
+    text-transform: uppercase;
+    font-family: var(--my-font);
+}
+
+.animated_text span{
+    display: inline-block;
+    animation-name: textWave;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
