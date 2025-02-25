@@ -1,0 +1,15 @@
+:root{
+    --bg-1: rgb(254, 249, 228);
+}
+
+.bg-1{
+    background-color: var(--bg-1);
+}
+
+#navigation{
+    background-color: rgb(127, 225, 244);
+}
+
+.navbar a {
+    text-decoration: none;
+}
