@@ -24,7 +24,7 @@
     background-color: var(--accent-1);
 }
 
-.navbar a {
+body a {
     text-decoration: none;
 }
 

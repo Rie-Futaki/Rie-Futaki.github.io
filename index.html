@@ -43,7 +43,7 @@
         </div>
     </header>
     <!-- MAIN CONTENT -->
-    <div class = "mt-sm-1 mx-5 mb-4 py-2 px-5 rounded-pill text-center content">
+    <div class = "mt-sm-1 mx-5 mb-4 py-2 px-5 rounded-5 text-center content">
         <!-- make this into a grid and put the sections inside? Or make separate sections for each topic?
          - About Me blurb
          - My projects: thumbnail and title, with a link to Projects page
@@ -61,7 +61,7 @@
         <p>I look forward to joining your team.</p>
         <p><br><br>Sincirely,<br><br>Rie Futaki</p>
     </div>
-    <div class = "mt-sm-1 mx-5 rounded-pill content">
+    <div class = "mt-sm-1 mx-5 rounded-5 content">
         <!-- make this into a grid and put the sections inside? Or make separate sections for each topic?
          - About Me blurb
          - My projects: thumbnail and title, with a link to Projects page
@@ -71,9 +71,18 @@
     </div>
     <!-- FOOTER -->
     <footer>
-        <!-- Put my github/linkedIn and any other important links/info here-->
+        <div>
+             <!-- Put my github/linkedIn here as div
+              the container div itself will be d-flex; justify-content-center
+              Use CSS to give the footer a background color
+              Add footer to my project page as well
+              -->
+        </div>
+        <div class = "container text-end fixed-bottom">
+            <!-- currently "fixed" at bottom; edit if this causes issues -->
+            <a href = "#navigation" class = "d-inline-block">Back to Top</a>
+        </div>
     </footer>
-
     <script src = "script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
