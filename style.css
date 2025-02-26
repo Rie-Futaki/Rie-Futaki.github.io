@@ -3,6 +3,7 @@
 :root{
     --bg-1: rgb(151, 189, 254);
     --bg-2: rgb(252, 245, 215);
+    --bg-3: rgb(134, 138, 241);
     --accent-1: rgb(127, 225, 244);
     --my-font: "Sour Gummy";
 }
@@ -18,6 +19,10 @@
 
 .bg-1{
     background-color: var(--bg-1);
+}
+
+.bg-3{
+    background-color: var(--bg-3);
 }
 
 #navigation{
@@ -46,3 +51,7 @@ body a {
     animation-iteration-count: infinite;
     animation-direction: alternate;
   }
+
+.logo{
+    height: 50px;
+}
