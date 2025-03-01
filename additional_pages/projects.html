@@ -11,9 +11,9 @@
 <body class = "bg-1">
     <!-- NAV -->
      <!-- I want the "Languages" dropdown to always be visible -->
-     <nav id = "navigation" class = "navbar navbar-expand-md">
+     <nav id = "navigation" class = "navbar navbar-expand-md pe-5">
         <div class = "container-fluid">
-            <a href = "/index.html" class = "navbar-brand mt-2" >Home</a>
+            <a href = "/index.html" id = "home" class = "navbar-brand mt-2" >Home</a>
         </div>
         <button class = "navbar-toggler" type = "button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon ml-5"></span>
@@ -21,7 +21,7 @@
         <div class = "collapse navbar-collapse" id = "navbarContent">
             <ul class = "navbar-nav mb-2 mx-auto mb-lg-0">
                 <li class = "nav-item me-4 mt-2">
-                    <a href = #>Projects</a>
+                    <a id = "projects" class = "text-nowrap" href = #>Projects</a>
                 </li>
                 <li class = "nav-item me-3 mt-2">
                     <div class = "nav-item dropdown">
@@ -33,13 +33,13 @@
                         </div>
                         <ul class = "dropdown-menu" aria-labelledby = "navbarDropdown">
                             <li>
-                                <button class = "dropdown-item">
-                                    Test1
+                                <button class = "eng dropdown-item">
+                                    English
                                 </button>
                             </li>
                             <li>
-                                <button class = "dropdown-item">
-                                    Test2
+                                <button class = "jpn dropdown-item">
+                                    日本語
                                 </button>
                             </li>
                         </ul>
@@ -150,6 +150,7 @@
             <a href = "#navigation" class = "d-inline-block">Back to Top</a>
         </div>
     </footer>
+    <script src = "/additional_scripts/nav.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
