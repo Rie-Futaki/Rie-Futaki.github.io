@@ -61,22 +61,22 @@
     </header>
     <!-- ABOUT ME -->
     <section class = "mt-sm-1 mx-5 mb-4 py-2 px-5 rounded-5 text-center content">
-        <h1>Hello there!</h1>
-        <h2>Thank you for visiting my GitHub page!</h2>
-        <p class = "text-start"><br>&emsp;&emsp;&emsp;I am an aspiring full-stack web developper and programmer, currently studying for my Web Development and Internet Applications Diploma at Algonquin College.</p>
-        <p class = "text-start">&emsp;&emsp;&emsp;In addition to web development, I have gained strong analitycal and communication skills through my previous education in psychology and sociology.
+        <h1 id = "greeting">Hello there!</h1>
+        <h2 id = "greeting2">Thank you for visiting my GitHub page!</h2>
+        <p id = "about" class = "text-center text-md-start"><br>&emsp;&emsp;&emsp;I am an aspiring full-stack web developper and programmer, currently studying for my Web Development and Internet Applications Diploma at Algonquin College.</p>
+        <p id = "about2" class = "text-center text-md-start">&emsp;&emsp;&emsp;In addition to web development, I have gained strong analytical and communication skills through my previous education in psychology and sociology.
             My past job experience as a localization quality tester for video games and mobile apps helped me further develop attention to detail, problem-solving skills, and above all,
             an appreciation for working as part of a team to work toward a final product. I enjoyed spotting bugs in the game and notifying the FQA team to find a fix...
              Now it's my turn to try some programming myself!
         </p>
-        <p class = "text-start">&emsp;&emsp;&emsp;With these skills and experiences combined, I hope to contribute by offering creative solutions and helping catch (and fix) bugs!</p>
-        <p class = "text-start">&emsp;&emsp;&emsp;I look forward to joining your team.</p>
-        <p><br><br>Sincirely,<br><br>Rie Futaki</p>
+        <p id = "about3" class = "text-center text-md-start">&emsp;&emsp;&emsp;With these skills and experiences combined, I hope to contribute by offering creative solutions and helping catch (and fix) bugs!</p>
+        <p id = "closing" class = "text-center text-md-start">&emsp;&emsp;&emsp;I look forward to joining your team.</p>
+        <p id = "salutation"><br><br>Sincerely,<br><br>Rie Futaki</p>
     </section>
     <!-- MY SKILLS -->
     <section class = "mt-sm-1 mx-5 mb-4 py-2 px-5 rounded-5 content">
-        <h2 class = "text-center">Skills</h2>
-        <h3>Languages</h3>
+        <h2 id = "skills" class = "text-center">Skills</h2>
+        <h3 id = "prog_langs">Languages</h3>
         <div class ="row row-cols-auto gx-5 my-3">
             <div class = "col">
                 HTML
@@ -97,7 +97,7 @@
                 C++*
             </div>
         </div>
-        <h3>Frameworks, Libraries, and Platforms</h3>
+        <h3 id = "frameworks">Frameworks, Libraries, and Platforms</h3>
         <div class = "row row-cols-auto gx-5 my-3">
             <div class = "col">
                 Bootstrap
@@ -115,19 +115,16 @@
                 Vue*
             </div>
         </div>
-        <h3>Programimng-related Software</h3>
+        <h3 id = "software">Programmimng-related Software</h3>
         <div class = "row row-cols-auto gx-5 my-3">
             <div class = "col">
                 Git
             </div>
-            <div class = "col">
+            <div id = "jira" class = "col">
                 Jira Bug Tracker
             </div>
-            <div class = "col">
-            </div>
-
         </div>
-        <h3>Database Querying and Design</h3>
+        <h3 id = "databases">Database Querying and Design</h3>
         <div class ="row row-cols-auto gx-5 my-3">
                 <div class = "col">
                     MariaDB
@@ -142,7 +139,7 @@
                     Vertabelo
                 </div>
         </div>
-        <h3>Design</h3>
+        <h3 id = "design">Design</h3>
         <div class ="row row-cols-auto gx-5 my-3">
                 <div class = "col">
                     Adobe Photoshop*
@@ -154,22 +151,22 @@
                     Figma*
                 </div>
         </div>
-        <h3>Other Skills</h3>
+        <h3 id = "others">Other Skills</h3>
         <div class ="row row-cols-auto gx-5 my-3">
-                <div class = "col">
+                <div id = "qualitative" class = "col">
                     Qualitative Analysis
                 </div>
-                <div class = "col">
+                <div id = "quantitative" class = "col">
                     Quantitative Analysis
                 </div>
-                <div class = "col">
+                <div id = "lqa" class = "col">
                     LQA: English-Japanese
                 </div>
-                <div class = "col">
+                <div id = "french" class = "col">
                     French* (DELF B2 Level)
                 </div>
         </div>
-        <p class = "mt-4 mb-1">*Currently learning.</p>
+        <p id = "learning" class = "mt-4 mb-1">*Currently learning.</p>
     </section>
     <!-- FOOTER -->
     <footer class = "bg-3 py-4">
@@ -192,10 +189,10 @@
         <div class = "container text-end fixed-bottom">
             <!-- currently "fixed" at bottom; edit if this causes issues 
              Font colour difficult to see-->
-            <a href = "#navigation" class = "d-inline-block">Back to Top</a>
+            <a id = "backToTop" href = "#navigation" class = "d-inline-block">Back to Top</a>
         </div>
     </footer>
-    <script src = "additional_scripts/nav.js"></script>
+    <script src = "additional_scripts/home.js"></script>
     <script src = "script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
