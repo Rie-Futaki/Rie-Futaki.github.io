@@ -93,7 +93,6 @@ const learning = document.getElementById('learning');
 const learning_ENG = learning.textContent;
 const learning_JPN = "*現在勉強中です。";
 
-
 const backToTop = document.getElementById('backToTop');
 const backToTop_ENG = backToTop.textContent;
 const backToTop_JPN = "ページトップへ戻る";

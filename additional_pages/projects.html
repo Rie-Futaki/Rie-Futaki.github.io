@@ -47,38 +47,38 @@
                 </li>
      </nav>
     <!-- PROJECTS -->
-    <h1 class = "mt-3 mb-3 mt-lg-5 mb-lg-4  text-center">My Projects and Experience</h1>
-    <section class = "mt-3 mt-md-5 mx-5 mb-4 py-2 px-5 rounded-5 content">
-        <h2 class = "text-center">Web Development Projects</h2>
+    <h1 id = "main_heading" class = "mt-3 mb-3 mt-lg-5 mb-lg-4  text-center">My Projects and Experience</h1>
+    <section class = "mt-3 mt-md-5 mx-5 mb-4 py-2 px-md-5 rounded-5 content">
+        <h2 id = "web_projects" class = "text-center">Web Development Projects</h2>
         <div class = "container-fluid w-75">
             <section id = "bunny">
-                <h2 class = "text-center"><a href = "https://github.com/Rie-Futaki/SVG-animation" target = "_blank">Animated Bunny SVG</a></h2>
+                <h2 id = "bunny_project" class = "text-center"><a href = "https://github.com/Rie-Futaki/SVG-animation" target = "_blank">Animated Bunny SVG</a></h2>
                 <div class = "my-3">
                     <img class = "w-100 rounded-3" src = "/images/Bunny_Screenshot.png" alt = "Bunny SVG Project">
                 </div>
-                <p>WIP! Will be updating and adding more interactivity/animations.</p>
-                <h3>About:</h3>
-                <p>A personal SVG animation project. I first designed and created the bunny SVG image in Adobe Illustrator, then added the SVG code into my HTML file.
+                <p id = "wip">WIP! Will be updating and adding more interactivity/animations.</p>
+                <h3 class = "about">About:</h3>
+                <p id = "bunny_about">A personal SVG animation project. I first designed and created the bunny SVG image in Adobe Illustrator, then added the SVG code into my HTML file.
                     <br>Using CSS and JavaScript, I added some animations and interactivity.
                 </p>
-                <h3>Tools Used:</h3>
-                <p>HTML (bootstrap), CSS, JavaScript, Aodbe Illustrator</p>
+                <h3 class = "tools">Tools Used:</h3>
+                <p>HTML (bootstrap), CSS, JavaScript, Adobe Illustrator</p>
             </section>
         </div>
         <hr>
         <div class = "container-fluid w-75">
             <section id = "pokedex">
-                <h2 class = "text-center"><a href = "https://github.com/Rie-Futaki/Pokedex" target = "_blank">Pokédex</a></h2>
+                <h2 id = "poke_project" class = "text-center"><a href = "https://github.com/Rie-Futaki/Pokedex" target = "_blank">Pokédex</a></h2>
                 <div class = "my-3">
                     <img class = "w-100 rounded-3" src = "/images/Pokedex_Screenshot.png" alt = "Pokédex Project">
                 </div>
-                <h3>About:</h3>
-                <p>In this assignment, I created an interactive Pokédex web application that retrieves data from <a href = "https://pokeapi.co">PokéAPI</a>.
+                <h3 class = "about">About:</h3>
+                <p id = "poke_about">In this assignment, I created an interactive Pokédex web application that retrieves data from <a href = "https://pokeapi.co" target = "_blank">PokéAPI</a>.
                     I used the asynchronous fetch function to retrieve each Pokémon's information, then used CSS grid to display the Pokémon's sprite.
                     <br>Clicking on a Pokémon allows the user to see more information about it, as well as its official artwork. By clicking on the "Catch!" button,
-                    users can catch that Pokémon. The user's caught Pokémon are stored in local storage, meainng that their caught Pokémon will reamin even when the page is refreshed.
+                    users can catch that Pokémon. The user's caught Pokémon are stored in local storage, meaninng that their caught Pokémon will remain even when the page is refreshed.
                 </p>
-                <h3>Tools Used:</h3>
+                <h3 class = "tools">Tools Used:</h3>
                 <p>HTML, CSS, JavaScript</p>
             </section>
         </div>
@@ -89,42 +89,43 @@
                 <div class = "my-3">
                     <img class = "w-100 rounded-3" src = "/images/Officelite_Screenshot.png" alt = "Officelite Project">
                 </div>
-                <h3>About:</h3>
-                <p>In this assignment, I was provided with example designs which I had to recreate as faithfully as possible using HTML and CSS.
+                <h3 class = "about">About:</h3>
+                <p id = "office_about">In this assignment, I was provided with example designs which I had to recreate as faithfully as possible using HTML and CSS.
                     <br>By using CSS grid, I made sure that the pages reflected the provided designs at all screen sizes.
                     <br>This was created before I became familiar with SVG files, and I had to copy and edit the SVG code itself to create two different versions of the logo: one blue, and one purple.
                      Now I know that I could've added the SVG code directly into my HTML files, then changed the colour using the "fill" property in CSS.
                 </p>
-                <h3>Tools Used:</h3>
-                <p>HTML and CSS</p>
+                <h3 class = "tools">Tools Used:</h3>
+                <p>HTML, CSS</p>
             </section>
         </div>
     </section>
-    <section class = "mt-3 mt-md-5 mx-5 mb-4 py-2 px-5 rounded-5 content">
-        <h2 class = "text-center">LQA Projects</h2>
-        <h3 class = "text-center"><a href = "https://www.keywordsstudios.com">Keywords Studios</a>, 2022-2024</h3>
-        <p>Starting out as an on-call LQA tester, then officially joining the team as a full-time permanent employee, I had the opportunity to work on a variety of different projects, from long-running mobile and online games, and even a few new releases!</p>
-        <div>
-            <section id = "lqa">
-                <h3>Resposibilities and Skills:</h3>
+    <section class = "mt-3 mt-md-5 mx-5 mb-4 py-2 px-md-5 rounded-5 content">
+        <div class = "container-fluid w-75">
+            <h2 id = "lqa_projects" class = "text-center">LQA Projects</h2>
+            <h3 class = "text-center"><a href = "https://www.keywordsstudios.com">Keywords Studios</a>, 2022-2024</h3>
+            <p id = "lqa_about">Starting out as an on-call LQA tester, then officially joining the team as a full-time permanent employee, I had the opportunity to work on a variety of different projects, from long-running mobile and online games, and even a few new releases!</p>
+            <div>
+                <h3 id = "lqa_skills">Responsibilities and Skills:</h3>
                 <ul>
-                    <li>Checking projects from end-user's point of view, making sure they are free from linguistic errors.</li>
-                    <li>Ensuring that texts and subtitles are correct, free of display issues, and use language that is clear and natural.</li>
-                    <li>Checking UI to ensure there are no visual and/or functional issues.</li>
-                    <li>Working together with other testers and teams to report any issues and/or bugs.</li>
-                    <li>Navigating bug tracking tools such as Jira.</li>
-                    <li>Offering edits and translations as required.</li>
+                    <li id = "lqa1">Checking projects from end-user's point of view, making sure they are free from linguistic errors.</li>
+                    <li id = "lqa2">Ensuring that texts and subtitles are correct, free of display issues, and use language that is clear and natural.</li>
+                    <li id = "lqa3">Checking UI to ensure there are no visual and/or functional issues.</li>
+                    <li id = "lqa4">Working together with other testers and teams to report any issues and/or bugs.</li>
+                    <li id = "lqa5">Navigating bug tracking tools such as Jira.</li>
+                    <li id = "lqa6">Offering edits and translations as required.</li>
                 </ul>
-            </section>
         </div>
     </section>
-    <section class = "mt-3 mt-md-5 mx-5 mb-4 py-2 px-5 rounded-5 content">
-        <h2 class = "text-center">Other Academic Projects and Achievements</h2>
-        <ul>
-            <li>French: Passed the DELF B2 level (November 2024)</li>
-            <li>Master of Arts in Sociology with <a href = "https://ruor.uottawa.ca/server/api/core/bitstreams/4da3ee97-df79-4537-be1c-e4abf29cef18/content" target = "_blank">thesis</a>, University of Ottawa (2022)</li>
-            <li>Bachelor of Arts in Psychology, University of Ottawa (2019)</li>
-        </ul>
+    <section class = "mt-3 mt-md-5 mx-5 mb-4 py-2 px-md-5 rounded-5 content">
+        <div class = "container-fluid w-75">
+            <h2 id = "other_projects" class = "text-center">Other Academic Projects and Achievements</h2>
+            <ul>
+                <li id = "french">French: Passed the DELF B2 level (November 2024)</li>
+                <li id = "MA">Master of Arts in Sociology with <a href = "https://ruor.uottawa.ca/server/api/core/bitstreams/4da3ee97-df79-4537-be1c-e4abf29cef18/content" target = "_blank">thesis</a>, University of Ottawa (2022)</li>
+                <li id = "BA">Bachelor of Arts in Psychology, University of Ottawa (2019)</li>
+            </ul>
+        </div>
     </section>
       <!-- FOOTER -->
       <footer class = "bg-3 py-4">
@@ -147,10 +148,10 @@
         <div class = "container text-end fixed-bottom">
             <!-- currently "fixed" at bottom; edit if this causes issues 
              Font colour difficult to see-->
-            <a href = "#navigation" class = "d-inline-block">Back to Top</a>
+            <a id = "backToTop" href = "#navigation" class = "d-inline-block">Back to Top</a>
         </div>
     </footer>
-    <script src = "/additional_scripts/nav.js"></script>
+    <script src = "/additional_scripts/projects.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
