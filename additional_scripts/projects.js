@@ -89,6 +89,18 @@ const lqa6 = document.getElementById('lqa6');
 const lqa6_ENG = lqa6.textContent;
 const lqa6_JPN = "必要に応じて、編集と翻訳。";
 
+const ubisoft = document.getElementById('ubisoft');
+const ubisoft_ENG = ubisoft.innerHTML;
+const ubisoft_JPN = '<a href = "https://www.ubisoft.com/ja-jp/game/for-honor" target = "_blank" class = "text-center">フォーオナー</a>';
+
+const ubisoft_desc = document.getElementById('ubisoft_desc');
+const ubisoft_desc_ENG = ubisoft_desc.innerHTML;
+const ubisoft_desc_JPN = '<p><a href = "https://www.ubisoft.com/ja-jp/" target = "_blank">ユービーアイソフト</a>から2017年にリリースされ、現在もサービスが続いている歴史ファンタジーアクションゲーム。 <br>2023年度のLQAチームの一員として、アップデート内容のローカライズをチェックさせていただきました。</p>';
+
+const coatsink_desc = document.getElementById('coatsink_desc');
+const coatsink_desc_ENG = coatsink_desc.innerHTML;
+const coatsink_desc_JPN = '<p><a href = "https://coatsink.com" target = "_blank">Coatsink</a>による、2022年にリリースされたちょっと風変わりなソウルライク。風刺と数々の有名ゲームへのオマージュが面白い作品。<br>ゲーム内のテキストおよびサブタイトルのチェックをさせていただきました。</p>';
+
 const other_projects = document.getElementById('other_projects');
 const other_projects_ENG = other_projects.textContent;
 const other_projects_JPN = "その他の経験・スキル";
@@ -117,9 +129,9 @@ const JPN_texts = [home_JPN, projects_JPN, language_JPN, main_heading_JPN, web_p
                 bunny_about_JPN, lqa_projects_JPN, lqa_about_JPN, lqa_skills_JPN, lqa1_JPN, lqa2_JPN, lqa3_JPN, 
                 lqa4_JPN, lqa5_JPN, lqa6_JPN, other_projects_JPN, french_JPN, BA_JPN, backToTop_JPN]
 
-const changeHTML = [bunny_project, poke_project, poke_about, office_about, MA];
-const HTML_ENG = [bunny_project_ENG, poke_project_ENG, poke_about_ENG, office_about_ENG, MA_ENG];
-const HTML_JPN = [bunny_project_JPN, poke_project_JPN, poke_about_JPN, office_about_JPN, MA_JPN];
+const changeHTML = [bunny_project, poke_project, poke_about, office_about, ubisoft, ubisoft_desc, coatsink_desc, MA];
+const HTML_ENG = [bunny_project_ENG, poke_project_ENG, poke_about_ENG, office_about_ENG, ubisoft_ENG, ubisoft_desc_ENG, coatsink_desc_ENG, MA_ENG];
+const HTML_JPN = [bunny_project_JPN, poke_project_JPN, poke_about_JPN, office_about_JPN, ubisoft_JPN, ubisoft_desc_JPN, coatsink_desc_JPN, MA_JPN];
 
 function changeToJPN(){
     for (let i = 0; i < texts.length; i++){
@@ -164,3 +176,13 @@ ENG_button.addEventListener('click', function(){
 JPN_button.addEventListener('click', function(){
     changeToJPN();
 })
+
+/* Added:
+id = "ubisoft_desc" text: A long-running multiplayer online battle game from <a href = "https://www.ubisoft.com/en-us/" target = "_blank">Ubisoft</a>, with lots of fun historical and cultural allusions.<br>Checked localizations of updates as part of the 2023 LQA team.
+id = "coatsink" text: The Last Hero of Nostalgaia
+id = "coatsink_desc" text: A quirky, satirical soulslike released in 2022 by <a href = "https://coatsink.com" target = "_blank">Coatsink</a>!<br>Checked all in-game texts and subtitles.  */
+
+/* Has JPN webpage:
+
+Ubisoft main page: https://www.ubisoft.com/ja-jp/ 
+ */
