@@ -43,6 +43,22 @@ body a {
     text-decoration: none;
 }
 
+body h1 {
+    font-size: 2rem;
+}
+
+body h2 {
+    font-size: 1.5rem;
+}
+
+body h3 {
+    font-size: 1.5rem;
+}
+
+#backToTop{
+    background-color:white;
+}
+
 .content {
     background-color: var(--bg-2);
 }
