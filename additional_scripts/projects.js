@@ -21,6 +21,26 @@ const web_projects = document.getElementById('web_projects');
 const web_projects_ENG = web_projects.textContent;
 const web_projects_JPN = "Web開発プロジェクト";
 
+const about = document.querySelectorAll(".about");
+const about_ENG = about[0].textContent;
+const about_JPN = "プロジェクトについて:";
+
+const tools = document.querySelectorAll(".tools");
+const tools_ENG = tools[0].textContent;
+const tools_JPN = "使用したツール:";
+
+const registrar_project = document.getElementById('registrar_project');
+const registrar_project_ENG = registrar_project.innerHTML;
+const registrar_project_JPN = "<a href = \"https://github.com/Rie-Futaki/Registrar\" target = \"_blank\">学生登録ページ</a>";
+
+const registrar_about = document.getElementById('registrar_about');
+const registrar_about_ENG = registrar_about.textContent;
+const registrar_about_JPN = "データベース内の学生データを表示・編集できるBlazorウェブアプリです。";
+
+const registrar_tools = document.getElementById("registrar_tools");
+const registrar_tools_ENG = registrar_tools.textContent;
+const registrar_tools_JPN = "C#, blazor .NETフレームワーク";
+
 const bunny_project = document.getElementById('bunny_project');
 const bunny_project_ENG = bunny_project.innerHTML;
 const bunny_project_JPN = "<a href = \"https://github.com/Rie-Futaki/SVG-animation\" target = \"_blank\">うさぎSVGアニメーション</a>";
@@ -29,17 +49,9 @@ const wip = document.getElementById('wip');
 const wip_ENG = wip.textContent;
 const wip_JPN = "現在制作途中。もっと色々な動作や反応を足していきたいです。";
 
-const about = document.querySelectorAll(".about");
-const about_ENG = about[0].textContent;
-const about_JPN = "プロジェクトについて:";
-
 const bunny_about = document.getElementById('bunny_about');
 const bunny_about_ENG = bunny_about.textContent;
 const bunny_about_JPN = "個人的に作成したSVGアニメーションです。Adobe Illustratorで作ったうさぎのSVG画像コードをHTMLにインラインで直接書き加え、CSSとJavaScriptでアニメーションを付け加えました。ユーザーのマウスオーバー、クリックなどに反応します。";
-
-const tools = document.querySelectorAll(".tools");
-const tools_ENG = tools[0].textContent;
-const tools_JPN = "使用したツール:";
 
 const poke_project = document.getElementById('poke_project');
 const poke_project_ENG = poke_project.innerHTML;
@@ -121,17 +133,17 @@ const backToTop = document.getElementById('backToTop');
 const backToTop_ENG = backToTop.textContent;
 const backToTop_JPN = "ページトップへ戻る";
 
-const texts = [home, projects, language, main_heading, web_projects, wip, bunny_about, lqa_projects, lqa_about, lqa_skills, lqa1, lqa2, lqa3, lqa4, lqa5, lqa6, other_projects, french, BA, backToTop]
+const texts = [home, projects, language, main_heading, web_projects, wip, registrar_about, registrar_tools, bunny_about, lqa_projects, lqa_about, lqa_skills, lqa1, lqa2, lqa3, lqa4, lqa5, lqa6, other_projects, french, BA, backToTop]
 const ENG_texts = [home_ENG, projects_ENG, language_ENG, main_heading_ENG, web_projects_ENG, wip_ENG, 
-                bunny_about_ENG, lqa_projects_ENG, lqa_about_ENG, lqa_skills_ENG, lqa1_ENG, lqa2_ENG, lqa3_ENG, 
+                registrar_about_ENG, registrar_tools_ENG, bunny_about_ENG, lqa_projects_ENG, lqa_about_ENG, lqa_skills_ENG, lqa1_ENG, lqa2_ENG, lqa3_ENG, 
                 lqa4_ENG, lqa5_ENG, lqa6_ENG, other_projects_ENG, french_ENG, BA_ENG, backToTop_ENG]
 const JPN_texts = [home_JPN, projects_JPN, language_JPN, main_heading_JPN, web_projects_JPN, wip_JPN, 
-                bunny_about_JPN, lqa_projects_JPN, lqa_about_JPN, lqa_skills_JPN, lqa1_JPN, lqa2_JPN, lqa3_JPN, 
+                registrar_about_JPN, registrar_tools_JPN, bunny_about_JPN, lqa_projects_JPN, lqa_about_JPN, lqa_skills_JPN, lqa1_JPN, lqa2_JPN, lqa3_JPN, 
                 lqa4_JPN, lqa5_JPN, lqa6_JPN, other_projects_JPN, french_JPN, BA_JPN, backToTop_JPN]
 
-const changeHTML = [bunny_project, poke_project, poke_about, office_about, ubisoft, ubisoft_desc, coatsink_desc, MA];
-const HTML_ENG = [bunny_project_ENG, poke_project_ENG, poke_about_ENG, office_about_ENG, ubisoft_ENG, ubisoft_desc_ENG, coatsink_desc_ENG, MA_ENG];
-const HTML_JPN = [bunny_project_JPN, poke_project_JPN, poke_about_JPN, office_about_JPN, ubisoft_JPN, ubisoft_desc_JPN, coatsink_desc_JPN, MA_JPN];
+const changeHTML = [registrar_project, bunny_project, poke_project, poke_about, office_about, ubisoft, ubisoft_desc, coatsink_desc, MA];
+const HTML_ENG = [registrar_project_ENG, bunny_project_ENG, poke_project_ENG, poke_about_ENG, office_about_ENG, ubisoft_ENG, ubisoft_desc_ENG, coatsink_desc_ENG, MA_ENG];
+const HTML_JPN = [registrar_project_JPN, bunny_project_JPN, poke_project_JPN, poke_about_JPN, office_about_JPN, ubisoft_JPN, ubisoft_desc_JPN, coatsink_desc_JPN, MA_JPN];
 
 function changeToJPN(){
     for (let i = 0; i < texts.length; i++){
